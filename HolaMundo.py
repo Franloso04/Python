@@ -29,3 +29,18 @@ except:
 import random 
 
 print(random.randint(0,10))
+
+#Numeros aleatorios 2 RANGE
+
+
+import random
+dias=["Lunes","Martes","Miercoles"]
+dia=random.choice(dias)
+
+print (dia)
+
+lista = range(10)#=[0,1,2,3,4,5,6]
+
+#Bucle for 
+ for x in ["Lunes", "Martes", "Miercoles"]:            # in range(1,12,2)Inicio, Fin, Con paso
+     print(x)
