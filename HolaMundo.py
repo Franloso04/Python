@@ -79,4 +79,5 @@ nombre= nombre.upper()#pasar a mayuscula
 
 nombre.find("Fran")        
 aux=nombre[nombre.find("Fran")+3: ]
+print(nombre:4)#:para desde el principio hasta esa posicion o hasta el final 
 aux.find("Fran")
