@@ -81,3 +81,35 @@ nombre.find("Fran")
 aux=nombre[nombre.find("Fran")+3: ]
 print(nombre:4)#:para desde el principio hasta esa posicion o hasta el final 
 aux.find("Fran")
+
+
+#Ficheros
+#Lectura de ficheros de texto
+
+
+'''Lectura
+fdatos= open("Carpeta.txt")
+print(fdatos)
+fdatos= open("Carpeta.txt",encoding="utf_8")
+for linea in fdatos:
+    print(linea)'''
+'''Escritura
+fdatos=open("nombres.txt","w")
+fdatos.write("Juan\nPepe\nJose")
+fdatos.close'''
+'''Añadir al fichero 
+fdatos=open("nombres.txt","a")
+fdatos.write("\nJuan\nPepe\nJose")
+fdatos.close'''
+'''Si no existe lo crea
+try:
+    fdatos= open("Carpeta.txt",encoding="utf_8")
+except :
+    fdatos=open("nombres.txt","w")
+    fdatos.close()
+    fdatos=open("nombres.txt","r")
+    pass'''
+a=5
+b=5
+suma=a
+#with open("nombres.txt","r") as fdatos
